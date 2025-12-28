@@ -22,21 +22,17 @@ body {
 }
 
 .box {
-    background: #00e5ff;
+    background: #ffffff;
     position: relative;
-    list-style: none;
     padding: 15px 20px;
-    transform: skewX(-10deg);
     z-index: 10;
     box-shadow: 20px 20px 5px #00000060;
+    transform: translate(0, 0) skewX(-10deg);
     cursor: pointer;
-    color: white;
-    text-shadow: 1px 1px 1px rgb(80, 80, 80);
-    font-weight: 600;
+    transition: 0.2s;
 }
 
-.box:active,
-.active {
+.box:active {
     transform: translate(5px, 5px) skewX(-10deg);
     box-shadow: 15px 15px 3px #00000060;
 }
@@ -53,7 +49,7 @@ body {
     height: 100%;
     right: -10px;
     bottom: -5px;
-    background: #01a3a3;
+    background: #b0b0b0;
     transform: skewY(45deg);
     z-index: 0;
 }
@@ -65,11 +61,11 @@ body {
     height: 10px;
     right: -5px;
     bottom: -10px;
-    background: #01a3a3;
+    background: #b0b0b0;
     transform: skewX(45deg);
     z-index: 0;
 }
-
+/* 
 .box:nth-child(2) {
     background: #00ffbf;
 }
@@ -95,4 +91,4 @@ body {
 .box:nth-child(4)::after,
 .box:nth-child(4)::before {
     background: #b88d00;
-}
+} */

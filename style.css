@@ -65,30 +65,6 @@ body {
     transform: skewX(45deg);
     z-index: 0;
 }
-/* 
-.box:nth-child(2) {
-    background: #00ffbf;
-}
-
-.box:nth-child(2)::after,
-.box:nth-child(2)::before {
-    background: #00bb8d;
-}
-
-.box:nth-child(3) {
-    background: #c8ff00;
-}
-
-.box:nth-child(3)::after,
-.box:nth-child(3)::before {
-    background: #97c100;
-}
-
-.box:nth-child(4) {
-    background: #ffc400;
-}
-
-.box:nth-child(4)::after,
 .box:nth-child(4)::before {
     background: #b88d00;
 } */
